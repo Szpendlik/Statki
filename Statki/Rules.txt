@@ -1,0 +1,14 @@
+Gra w okrety to latwy i nie wymagajacy dlugiego przygotowania sposob na spedzenie wolnego czasu.
+Gra w statki: zasady ogolne
+Celem jest jak najszybsze zatopienie okretow przeciwnika oraz ochrona wlasnych statkow.
+Gra w statki: plansza
+Kolumny i wiersze oznaczamy wspolrzednymi: w kolumnach litery od A do J a w wierszach liczby od 1 do 10.
+Na jednej planszy gracz stawia swoje statki, a na drugiej zaznacza nietrafione strzaly w statki przeciwnika oraz oznaczenia trafionych okretow.
+Statki moga byc narysowane w pionie i poziomie, ale nie moga stykac sie ze soba bokami ani rogami i nie moga byc zakrecone czyli przypominac litery L.
+Rowniez nie moga byc ustawione pod ukosem.
+Zasady gry:
+Gra przebiega naprzemiennie: najpierw jeden z graczy oddaje strzal, jesli uda sie mu trafic, moze kontynuowac strzelanie do momentu, az chybi.
+Zatopienie statku ma miejsce, kiedy wszystkie kratki symbolizujace ten okret zostana trafione przez drugiego gracza.
+O oddaniu nietrafionego strzalu informujemy slowem pudlo. Natomiast przy strzale trafionym mówimy trafiony lub trafiony zatopiony.
+Bardzo wazne jest prawidlowe oznaczanie na planszy dokonanych już strzalow tak, aby nie wykonywać ich ponownie. 
+Najczesciej stawia sie kropke w miejscu, do ktorego oddalismy strzal nietrafiony. Natomiast strzal oddany i trafiony zaznacza sie krzyzykiem.
