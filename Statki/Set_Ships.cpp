@@ -9,7 +9,7 @@ void Set_Ships()
 
 	cout << "1: Dodaj statek " << endl;
 	cout << "2: Usun statek" << endl;
-	
+	 
 	cin >> wybierz;
 
 	switch (wybierz)

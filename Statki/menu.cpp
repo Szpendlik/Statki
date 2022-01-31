@@ -10,14 +10,24 @@ void menu()
 {
 	int wybierz = 0;
 	int pole[10][10]{};
+
+	HANDLE hOut;
+	hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(hOut, 240);
+
+	for (int i=0; i<100 ;i++)
+	{
+		for (int j = 0; j < 120; j++)
+		{
+			cout << " ";
+		}
+		cout << endl;
+	}
 		
 	COORD x;
 	x.X = 50;
 	x.Y = 0;
 
-	HANDLE hOut;
-	hOut = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleTextAttribute(hOut, 240);	
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), x);
 	
 	cout << "Wybierz z ponizszych: ";
@@ -68,7 +78,7 @@ void menu()
 		break;
 		case 3:
 			system("cls");
-			Spawn();
+			Spawn(pole);
 			system("pause");
 			system("cls");
 			menu();

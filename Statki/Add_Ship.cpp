@@ -29,7 +29,9 @@ void Add_Ship()
 		cout << "Brak takich kordynatow" << endl << "Wprowadz jeszcze raz: " << endl;
 		Add_Ship();
 	}
-	else cout << "Poprawna pozycja: x=" << pozycja_x << " y=" << pozycja_y << endl;
-
-	Type();
+	else
+	{
+		cout << "Poprawna pozycja: x=" << pozycja_x << " y=" << pozycja_y << endl;
+		Type();
+	}
 }

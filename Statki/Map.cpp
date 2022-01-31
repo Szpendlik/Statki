@@ -17,5 +17,4 @@ void Map(int plansza[10][10])
         cout << endl;
     }
     cout << endl;
-
 }
