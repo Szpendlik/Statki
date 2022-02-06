@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Nag³ówek.h"
 
 using namespace std;
 
@@ -16,7 +17,7 @@ void Type()
 	switch (how_long)
 	{
 		case 1:
-
+			Add_Ship();
 			break;
 
 		case 2:

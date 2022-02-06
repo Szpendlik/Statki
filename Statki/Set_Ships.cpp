@@ -16,16 +16,8 @@ void Set_Ships()
 	{
 		case 1:
 			system("cls");
-			for (int i = 0; i < 10; i++)
-			{
-				for (int j = 0; j < 10; j++)
-				{
-					cout << " 0 ";
-				}
-				cout << endl;
-			}
-			cout << endl;
-			Add_Ship();
+			Map();
+			Type();
 		break;
 		//case 2:
 			//Remove_Ship();

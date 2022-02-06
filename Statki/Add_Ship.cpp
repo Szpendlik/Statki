@@ -32,6 +32,5 @@ void Add_Ship()
 	else
 	{
 		cout << "Poprawna pozycja: x=" << pozycja_x << " y=" << pozycja_y << endl;
-		Type();
 	}
 }
