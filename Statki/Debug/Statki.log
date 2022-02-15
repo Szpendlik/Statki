@@ -1,4 +1,5 @@
-﻿  Set_Ships.cpp
-  Type.cpp
+﻿  Computer_move.cpp
+C:\Users\Bartosz\source\repos\Statki\Statki\Computer_move.cpp(12,24): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Player_move.cpp
   Generowanie kodu...
   Statki.vcxproj -> C:\Users\Bartosz\source\repos\Statki\Debug\Statki.exe

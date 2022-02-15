@@ -16,7 +16,6 @@ void Set_Ships()
 	{
 		case 1:
 			system("cls");
-			Map();
 			Type();
 		break;
 		//case 2:

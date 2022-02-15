@@ -1,11 +1,16 @@
 #include <iostream>
+#include <fstream>
 #include "Nag³ówek.h"
 
 using namespace std;
 
-void Add_Ship()
+void Add_Ship(int s_long)
 {
-	int pozycja_x, pozycja_y;
+	
+	bool zatwierdz = false;
+	
+	int pozycja_x, pozycja_y; 
+	int pole[10][10]{};
 
 	cout << "Podaj pozycje statku: (x, y)" << endl;
 	
@@ -14,23 +19,14 @@ void Add_Ship()
 
 	system("cls");
 
-	for (int i = 0; i < 10; i++)
-	{
-		for (int j = 0; j < 10; j++)
-		{
-			cout << " 0 ";
-		}
-		cout << endl;
-	}
-	cout << endl;
-
-	if (pozycja_x > 9 || pozycja_y > 9)
+	if (pozycja_x > 10 || pozycja_y > 10)
 	{
 		cout << "Brak takich kordynatow" << endl << "Wprowadz jeszcze raz: " << endl;
-		Add_Ship();
+		Add_Ship(s_long);
 	}
 	else
 	{
 		cout << "Poprawna pozycja: x=" << pozycja_x << " y=" << pozycja_y << endl;
+		Spawn(pole, pozycja_x, pozycja_y, s_long);
 	}
 }
